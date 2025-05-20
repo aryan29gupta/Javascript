@@ -7,3 +7,11 @@ const newnums1 = nums.map( (no) => no+10 )
 console.log(newnums1); 
 
 //------------------------------------------------------------------------------
+
+//Multiple maps and filter can also be used
+const number = nums
+                .map( (no) => no*10 )
+                .map( (no) => no+1  )
+                .filter( (no) => no>100)
+
+console.log(number); 
