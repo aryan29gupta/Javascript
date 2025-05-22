@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM 3</title>
+</head>
+<body style = "background-color: #212121; color:white">
+    
+</body>
+<script>
+    const divv = document.createElement('div')
+    console.log(divv);
+
+    divv.className = "main"
+    divv.id = Math.ceil(Math.random() * 10 + 1)
+    divv.setAttribute("title","generated title")
+    divv.style.backgroundColor = "green"
+    divv.style.padding = "10px"
+    //divv.innerText = "HELLO WORLD"
+
+    const addText = document.createTextNode("HELLO WORLD")
+    divv.appendChild(addText)
+    document.body.appendChild(divv)
+    </script>
+</html>
