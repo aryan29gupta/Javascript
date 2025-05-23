@@ -1,7 +1,7 @@
 # PROJECTS RELATED TO DOM
 
 ## Project Link 
-[click here](https://stackblitz.com/edit/dom-project-chaiaurcode-ntcj2gau?file=1-colorChanger%2Fchaiaurcode.js)
+[click here](https://stackblitz.com/edit/dom-project-chaiaurcode-ntcj2gau)
 
 # Solution Code
 
